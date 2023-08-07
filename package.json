@@ -1,0 +1,18 @@
+{
+    "name": "script-image-alpencams",
+    "version": "0.9.1",
+    "description": "define at src/spec.ts",
+    "main": "src/script.ts",
+    "config": {
+        "tools": "../toolchain/tools",
+        "cli": "../toolchain/tools/script_cli.js"
+    },
+    "scripts": {
+        "cli":              "node ${npm_package_config_cli}",
+        "compile":          "node ${npm_package_config_cli} compile || true",
+        "install":          "node ${npm_package_config_cli} install || true",
+        "toolchain:update": "node ${npm_package_config_cli} toolchain update",
+        "update":           "npm run toolchain:update",
+        "install:hooks":    "cp -f ../toolchain/tools/git/* .git/hooks/."
+    }
+}

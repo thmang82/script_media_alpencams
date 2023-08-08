@@ -1,6 +1,6 @@
 {
     "name": "script-image-alpencams",
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "define at src/spec.ts",
     "main": "src/script.ts",
     "config": {

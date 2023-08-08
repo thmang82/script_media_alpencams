@@ -7,7 +7,7 @@ export const specification: DataSource.Specification = {
     // ---
     provides: [ "webcam_image" ],
     // ---
-    version:   "0.9.1",
+    version:   "0.9.2",
     // ---
     translations: {
         'en': { name: "Alpen-Webcams", description: "Webcams from www.foto-webcam.eu" }
